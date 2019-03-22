@@ -11,7 +11,6 @@ frp下载地址：https://github.com/fatedier/frp/releases
    阿里云服务器运行server端：
 ```bash
             ./frps -c frps.ini
-            
 ```
    如果想要在后台运行，可使用如下命令：
 ```bash     
