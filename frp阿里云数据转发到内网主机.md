@@ -24,7 +24,7 @@ frp下载地址：https://github.com/fatedier/frp/releases
         
 ## 运行前配置
 
-   #### frp server配置（阿里云服务器）  
+   ### frp server配置（阿里云服务器）  
    配置文件为 frps.ini  
      默认文件内容为：  
 ```
@@ -33,7 +33,7 @@ frp下载地址：https://github.com/fatedier/frp/releases
 ```
    当前端口号为9001，也可以修改bind_port为你想要的端口号。该端口号用于frp的server与client的连接，即：阿里云服务器与实验室内网主机的连接。frp的server端将一直监听9001端口。
 
-   #### frp client配置（实验室内网主机）  
+   ### frp client配置（实验室内网主机）  
    配置文件为 frpc.ini  
    文件内容：
 ```
