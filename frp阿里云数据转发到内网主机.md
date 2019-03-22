@@ -1,18 +1,28 @@
 使用阿里云进行内网数据转发
+
 工具：frp
-使用：frp分为server端和client端。frp下载地址：https://github.com/fatedier/frp/releases
-      阿里云服务器运行server端：
+
+frp下载地址：https://github.com/fatedier/frp/releases
+
+使用：frp分为server端和client端。
+
+    阿里云服务器运行server端：
+
             ./frps -c frps.ini
+      
         使用如下命令在后台运行：
+        
             nohup ./frps -c frps.ini &
 
-      实验室内网主机运行client端:
+        实验室内网主机运行client端:
+            
             ./frpc -c frpc.ini
 
 注意frp的server端与client端的版本一致性。
         
 运行前配置：
-    阿里云服务器frp配置：
+
+        阿里云服务器frp配置：
         配置文件为 frps.ini
         默认文件内容为：
 
