@@ -3,8 +3,8 @@
 
 ## 工具：frp
 
-frp下载地址：https://github.com/fatedier/frp/releases
-
+frp下载地址：https://github.com/fatedier/frp/releases  
+frp文档：https://github.com/fatedier/frp/blob/master/README_zh.md  
 ## 使用：  
    frp分为server端和client端。
 
